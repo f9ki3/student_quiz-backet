@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Add User</h2>
+        <form id="add-user-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="quiz1" placeholder="Quiz 1" required>
+            <input type="number" id="quiz2" placeholder="Quiz 2" required>
+            <input type="number" id="quiz3" placeholder="Quiz 3" required>
+            <input type="number" id="quiz4" placeholder="Quiz 4" required>
+            <input type="number" id="quiz5" placeholder="Quiz 5" required>
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+    
+    <div>
+        <h2>Edit User</h2>
+        <form id="edit-user-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="quiz1" placeholder="Quiz 1" required>
+            <input type="number" id="quiz2" placeholder="Quiz 2" required>
+            <input type="number" id="quiz3" placeholder="Quiz 3" required>
+            <input type="number" id="quiz4" placeholder="Quiz 4" required>
+            <input type="number" id="quiz5" placeholder="Quiz 5" required>
+            <button type="submit">Edit User</button>
+        </form>
+    </div>
+    
+    <hr>
+    
+    <h2>Users</h2>
+    <table id="user-table">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Quiz 1</th>
+                <th>Quiz 2</th>
+                <th>Quiz 3</th>
+                <th>Quiz 4</th>
+                <th>Quiz 5</th>
+                <th>Average</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
