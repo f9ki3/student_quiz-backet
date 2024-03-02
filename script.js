@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Load users from XML file
-    $.get('users.xml', function(data) {
+    $.get('nicole_cervantes.xml', function(data) {
         $(data).find('user').each(function() {
             var name = $(this).find('name').text();
             var quiz1 = $(this).find('quiz1').text();
