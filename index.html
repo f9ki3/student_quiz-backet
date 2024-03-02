@@ -5,48 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Quiz</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
 <body>
     <div>
-        <h2>Add User</h2>
-        <form id="add-user-form">
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="number" id="quiz1" placeholder="Quiz 1" required>
-            <input type="number" id="quiz2" placeholder="Quiz 2" required>
-            <input type="number" id="quiz3" placeholder="Quiz 3" required>
-            <input type="number" id="quiz4" placeholder="Quiz 4" required>
-            <input type="number" id="quiz5" placeholder="Quiz 5" required>
-            <button type="submit">Add User</button>
+        <h1>STUDENT QUIZZES RECORD</h1>
+        <hr>
+        <h2>Add Record</h2>
+        <form id="add-user-form" style="margin-bottom: 20px; width: 100%;">
+            <div style="display: flex; flex-direction: row">
+                <div>
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="number" id="quiz1" placeholder="Quiz 1" required>
+                    <input type="number" id="quiz2" placeholder="Quiz 2" required>
+                </div>
+                <div>
+                    <input type="number" id="quiz3" placeholder="Quiz 3" required>
+                    <input type="number" id="quiz4" placeholder="Quiz 4" required>
+                    <input type="number" id="quiz5" placeholder="Quiz 5" required>
+                </div>
+            </div>
+            <button type="submit">Save</button>
         </form>
     </div>
+
+    <hr ">
     
-    <div>
-        <h2>Edit User</h2>
-        <form id="edit-user-form">
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="number" id="quiz1" placeholder="Quiz 1" required>
-            <input type="number" id="quiz2" placeholder="Quiz 2" required>
-            <input type="number" id="quiz3" placeholder="Quiz 3" required>
-            <input type="number" id="quiz4" placeholder="Quiz 4" required>
-            <input type="number" id="quiz5" placeholder="Quiz 5" required>
-            <button type="submit">Edit User</button>
-        </form>
-    </div>
-    
-    <hr>
-    
-    <h2>Users</h2>
+    <h2>Students</h2>
     <table id="user-table">
         <thead>
             <tr>
-                <th>Student Name</th>
-                <th>Quiz 1</th>
-                <th>Quiz 2</th>
-                <th>Quiz 3</th>
-                <th>Quiz 4</th>
-                <th>Quiz 5</th>
-                <th>Average</th>
-                <th>Action</th>
+                <th width="15%">Student Name</th>
+                <th width="5%">Quiz 1</th>
+                <th width="5%">Quiz 2</th>
+                <th width="5%">Quiz 3</th>
+                <th width="5%">Quiz 4</th>
+                <th width="5%">Quiz 5</th>
+                <th width="10%">Average</th>
+                <th width="20%">Action</th>
             </tr>
         </thead>
         <tbody></tbody>
