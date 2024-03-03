@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="container">
-    <h1 class="page-header text-center" style="font-weight: bold;">Student Quizzes</h1>
+    <h1 class="page-header text-center" style="font-weight: bold;">Student Quizzes</h1><p style="text-align: center">by: Nicole Cervantes</p>
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
         <a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
@@ -39,7 +39,7 @@
                 <tbody>
                     <?php
                     //load xml file
-                    $file = simplexml_load_file('files/members.xml');
+                    $file = simplexml_load_file('Cervantes_Nicole.xml');
                     
                     foreach($file->user as $row){
                         ?>

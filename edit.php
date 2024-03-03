@@ -4,7 +4,7 @@ session_start();
 // Check if the form was submitted
 if (isset($_POST['edit'])) {
     // Load the XML file
-    $xmlFile = 'files/members.xml';
+    $xmlFile = 'Cervantes_Nicole.xml';
     $users = simplexml_load_file($xmlFile);
 
     // Find the user with the specified ID
