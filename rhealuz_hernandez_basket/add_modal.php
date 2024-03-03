@@ -4,7 +4,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <center><h4 class="modal-title" id="myModalLabel">Add New Record</h4></center>
+                <center><h4 class="modal-title" id="myModalLabel">Add New Basket</h4></center>
             </div>
             <div class="modal-body">
 			<div class="container-fluid">
@@ -19,50 +19,50 @@
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Name:</label>
+						<label class="control-label" style="position:relative; top:7px;">Owner:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="student_name">
+						<input type="text" class="form-control" name="basket_owner">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 1:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 1:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q1">
+						<input type="text" class="form-control" name="f1">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 2:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 2:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q2">
+						<input type="text" class="form-control" name="f2">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 3:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 3:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q3">
+						<input type="text" class="form-control" name="f3">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 4:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 4:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q4">
+						<input type="text" class="form-control" name="f4">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 5:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 5:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q5">
+						<input type="text" class="form-control" name="f5">
 					</div>
 				</div>
             </div> 

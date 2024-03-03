@@ -2,7 +2,7 @@
 	session_start();
 	$id = $_GET['id'];
 
-	$users = simplexml_load_file('Cervantes_Nicole.xml');
+	$users = simplexml_load_file('Feliciano_Allyssa.xml');
 
 	//we're are going to create iterator to assign to each user
 	$index = 0;
@@ -17,7 +17,7 @@
 	}
 
 	unset($users->user[$index]);
-	file_put_contents('Cervantes_Nicole.xml', $users->asXML());
+	file_put_contents('Feliciano_Allyssa.xml', $users->asXML());
 
 	$_SESSION['message'] = 'Student Deleted Successfully';
 	header('location: index.php');

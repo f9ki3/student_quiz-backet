@@ -4,19 +4,19 @@ session_start();
 // Check if the form was submitted
 if (isset($_POST['edit'])) {
     // Load the XML file
-    $xmlFile = 'Cervantes_Nicole.xml';
+    $xmlFile = 'Hernandez_Rhealuz.xml';
     $users = simplexml_load_file($xmlFile);
 
     // Find the user with the specified ID
     foreach ($users->user as $user) {
         if ($user->id == $_POST['id']) {
             // Update the user's information
-            $user->student_name = $_POST['student_name'];
-            $user->q1 = $_POST['q1'];
-            $user->q2 = $_POST['q2'];
-            $user->q3 = $_POST['q3'];
-            $user->q4 = $_POST['q4'];
-            $user->q5 = $_POST['q5'];
+            $user->basket_owner = $_POST['basket_owner'];
+            $user->f1 = $_POST['f1'];
+            $user->f2 = $_POST['f2'];
+            $user->f3 = $_POST['f3'];
+            $user->f4 = $_POST['f4'];
+            $user->f5 = $_POST['f5'];
             break;
         }
     }

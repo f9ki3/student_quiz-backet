@@ -4,7 +4,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <center><h4 class="modal-title" id="myModalLabel">Edit Member</h4></center>
+                <center><h4 class="modal-title" id="myModalLabel">Edit Basket</h4></center>
             </div>
             <div class="modal-body">
 			<div class="container-fluid">
@@ -22,47 +22,47 @@
 						<label class="control-label" style="position:relative; top:7px;">Name</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="student_name" value="<?php echo $row->student_name; ?>">
+						<input type="text" class="form-control" name="basket_owner" value="<?php echo $row->basket_owner; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 1:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 1:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q1" value="<?php echo $row->q1; ?>">
+						<input type="text" class="form-control" name="f1" value="<?php echo $row->f1; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 2:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 2:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q2" value="<?php echo $row->q2; ?>">
+						<input type="text" class="form-control" name="f2" value="<?php echo $row->f2; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 3:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 3:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q3" value="<?php echo $row->q3; ?>">
+						<input type="text" class="form-control" name="f3" value="<?php echo $row->f3; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 3:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 3:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q4" value="<?php echo $row->q4; ?>">
+						<input type="text" class="form-control" name="f4" value="<?php echo $row->f4; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-sm-2">
-						<label class="control-label" style="position:relative; top:7px;">Quiz 5:</label>
+						<label class="control-label" style="position:relative; top:7px;">Fruit 5:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="q5" value="<?php echo $row->q5; ?>">
+						<input type="text" class="form-control" name="f5" value="<?php echo $row->f5; ?>">
 					</div>
 				</div>
 
@@ -85,7 +85,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <center><h4 class="modal-title" id="myModalLabel">Delete Member</h4></center>
+                <center><h4 class="modal-title" id="myModalLabel">Delete Basket</h4></center>
             </div>
             <div class="modal-body">	
             	<p class="text-center">Are you sure you want to Delete</p>
