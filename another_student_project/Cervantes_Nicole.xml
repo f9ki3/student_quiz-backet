@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>1</id>
+    <student_name>Juan Dela Cruz</student_name>
+    <q1>10</q1>
+    <q2>10</q2>
+    <q3>10</q3>
+    <q4>10</q4>
+    <q5>10</q5>
+  </user>
+  <user>
+    <id>2</id>
+    <student_name>John Doe</student_name>
+    <q1>10</q1>
+    <q2>5</q2>
+    <q3>10</q3>
+    <q4>6</q4>
+    <q5>10</q5>
+  </user>
+  <user>
+    <id>3</id>
+    <student_name>Sarah Dela Cruz</student_name>
+    <q1>10</q1>
+    <q2>10</q2>
+    <q3>2</q3>
+    <q4>10</q4>
+    <q5>8</q5>
+  </user>
+  <user>
+    <id>4</id>
+    <student_name>Arnold rivera</student_name>
+    <q1>10</q1>
+    <q2>10</q2>
+    <q3>8</q3>
+    <q4>8</q4>
+    <q5>8</q5>
+  </user>
+</users>
