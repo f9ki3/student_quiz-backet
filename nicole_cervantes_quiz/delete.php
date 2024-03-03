@@ -19,7 +19,7 @@
 	unset($users->user[$index]);
 	file_put_contents('Cervantes_Nicole.xml', $users->asXML());
 
-	$_SESSION['message'] = 'Member deleted successfully';
+	$_SESSION['message'] = 'Student Deleted successfully';
 	header('location: index.php');
 
 ?>

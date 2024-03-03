@@ -21,7 +21,7 @@
 		$dom->save('Cervantes_Nicole.xml');
 		// Prettify / Format XML and save
 
-		$_SESSION['message'] = 'Member added successfully';
+		$_SESSION['message'] = 'Student Added successfully';
 		header('location: index.php');
 	}
 	else{

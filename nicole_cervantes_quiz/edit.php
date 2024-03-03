@@ -25,11 +25,11 @@ if (isset($_POST['edit'])) {
     file_put_contents($xmlFile, $users->asXML());
 
     // Set a success message and redirect
-    $_SESSION['message'] = 'Member updated successfully';
+    $_SESSION['message'] = 'Student Updated successfully';
     header('location: index.php');
 } else {
     // If the form was not submitted, set an error message and redirect
-    $_SESSION['message'] = 'Select member to edit first';
+    $_SESSION['message'] = 'Select Record to Edit First';
     header('location: index.php');
 }
 ?>

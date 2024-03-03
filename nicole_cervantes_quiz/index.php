@@ -30,7 +30,7 @@
                     unset($_SESSION['message']);
                 }
             ?>
-            <table class="table table-bordered table-striped" style="margin-top:20px;">
+            <table class=" " style="margin-top:20px;">
                 <thead>
                     <th width="10%">Student No.</th>
                     <th width="15%">Student Name</th>
@@ -58,7 +58,7 @@
                             <td class="text-center"><?php echo $row->q4; ?></td>
                             <td class="text-center"><?php echo $row->q5; ?></td>
                             <td class="text-center"><?php echo ($row->q1+$row->q2+$row->q3+$row->q4+$row->q5)/5; ?></td>
-                            <td class="text-center">
+                            <td class="text-center" style="padding: 10px">
                                 <a href="#edit_<?php echo $row->id; ?>" data-toggle="modal" class="btn btn-sm btn-warning" > Edit</a>
                                 <a href="#delete_<?php echo $row->id; ?>" data-toggle="modal" class="btn btn-sm btn-danger"> Delete</a>
                             </td>
